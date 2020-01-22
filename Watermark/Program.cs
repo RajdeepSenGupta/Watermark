@@ -42,6 +42,7 @@ namespace Watermark
             PointF pointF = new PointF(1200, 200);
             graphic.DrawString(watermark, myFont, brush, pointF);
             
+			
             using (MemoryStream memoryStream = new MemoryStream())
             {
                 image.Save("");                                                             // NewImage Path
